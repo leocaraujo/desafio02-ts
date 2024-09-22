@@ -1,12 +1,13 @@
-import { Footer } from "./Footer"
-import { Header } from "./Header/Header"
+import { Footer } from "./Footer";
+import { Header } from "./Header/Header";
 
-export const Layout = ({ children }: any) => {
-  return(
+const Layout = ({ children }: any) => {
+  return (
     <>
-      <Header />
-      { children }
+      <Header title={"Desenvolvendo o Dio Bank"} />
+      {children}
       <Footer />
     </>
-  )
-}
+  );
+};
+export default Layout;

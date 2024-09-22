@@ -1,3 +1,5 @@
 export const login = (): void => {
-    alert('Bem vinda!')
+    alert('Bem-vinda!')
 }
+
+export default login
